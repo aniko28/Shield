@@ -23,80 +23,239 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/////////////////////
-body{
 
-
+.body {
+    display: block;
+    font-family: "Lato";
+    font-weight: 300;
 }
 
-.row-nav{
+.row-nav {
     background-color: #101010;
     color: #999;
-    font-family: sans-serif;
+    font-family: Helvetica, Arial, SansSerif;
 }
-li{
+
+li {
     display: inline-block;
     line-height: 50px;
-    margin: 0 22px 0 0 ;
+    margin: 0 22px 0 0;
 }
-.container .fa-shield{
+
+.container .fa-shield {
     color: blue;
     margin-right: 5px;
     font-size: 20px;
 }
-.header{
+
+.header {
     background-image: url("header_bg.jpg");
-    background-position-y: -235px;
+    background-size: cover;
     margin: 0 auto;
+    width: 100%;
 
 }
+
 h1 {
     color: white;
     font-size: 30px;
-    font-family:  sans-serif;
     letter-spacing: 8px;
     height: 270px;
     line-height: 67px;
     text-align: center;
-
+    font-family: Helvetica, Arial, SansSerif;
 }
 
-.header .fa-shield{
+.header .fa-shield {
     margin: 0 auto;
     color: white;
     font-size: 56px;
     padding: 121px 0 150px 373px;
     height: 70px;
 }
-.boot{
-    background-color: #f5f5f5;
-    margin: -65px auto;
+
+.little2 h5 {
+    width: 450px;
 }
-.row-icon{
-    font-size: 60px;
+
+.boot {
+    background-color: #f5f5f5;
+    width: 100%;
+
+}
+
+.row-icon {
+    font-size: 48px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.row-land {
+    text-align: center;
+
+}
+
+h2, h3, h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: Helvetica, Arial, SansSerif;
+    height: 50px;
+    font-weight: 100;
+}
+
+p {
+    font-family: Helvetica, Arial, SansSerif;
+    letter-spacing: 3px;
+    font-size: 13px;
+    color: #555;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+h5 {
+    font-size: 30px;
     line-height: 30px;
-    margin: 40px 0 43px 200px;
+    border-bottom: 1px solid;
+    width: 450px;
+    padding: 50px 0 10px 0;
+    margin: 0 auto;
+}
+
+.row-now {
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+.design {
+    background: url("divider1.jpg");
+    background-position-y: 336px;
+    height: 300px;
+
+}
+
+.row-now p {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+h6 {
+    font-size: 40px;
+    color: white;
+    border-bottom: 2px solid #E6EAED;
+    width: 583px;
+    margin: 0 auto 40px;
+    padding: 53px 0 10px 0;
+}
+
+.container2 {
+    height: 300px;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.design p {
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #E6EAED;
+    width: 800px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.little h5 {
+    margin: 0 auto 28px;
+    width: 359px;
+}
+
+.pool1, .pool2, .pool3 {
+    padding: 16px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.pool4 h5 {
+    width: 510px;
+}
+
+.kep {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.little3 {
+    background: url("divider2.jpg");
+    color: white;
+    height: 300px;
+    background-position-y: center;
+}
+
+.little3 h5 {
+    padding: 120px 0 0 0;
+}
+
+.little3 p {
+    color: white;
+    width: 970px;
+    padding: 30px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.little4 h5 {
+    width: 411px;
+}
+
+.boot-container2 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.boot-container2 img {
+    padding: 42px 129px 13px 62px;
+    text-align: center;
+}
+
+.fa-facebook, .fa-flickr, .fa-twitter {
+    color: blue;
+}
+
+.row-map {
+    margin: 32px 52px;
+}
+
+h8 {
+    font-size: 40px;
+    line-height: 226px;
 }
